@@ -1,8 +1,9 @@
 {
     "name" : "com.wmk.iref",
-    "version" : "1.0.0",
+    "version" : "2.0.0",
     "displayName" : "IRef",
     "description" : "Enhance your Unity projects with our Interface Reference Utility, a package designed to streamline the management of interface references directly within the Unity Editor.",
+    "unity" : "2019.1",
     "author" : {
         "name" : "wmkimDev",
         "email" : "thdakfwn3@gmail.com",

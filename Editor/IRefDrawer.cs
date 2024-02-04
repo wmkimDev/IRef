@@ -1,11 +1,9 @@
 using UnityEditor;
 using UnityEngine;
 
-// ReSharper disable InconsistentNaming
-
-namespace wmk.IRef.Editor
+namespace WMK.IRef.Editor
 {
-    [CustomPropertyDrawer(typeof(IRef.Runtime.IRef<>), true)]
+    [CustomPropertyDrawer(typeof(Runtime.IRef<>), true)]
     public class IRefDrawer : PropertyDrawer
     {
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
