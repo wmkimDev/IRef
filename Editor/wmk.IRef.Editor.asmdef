@@ -1,0 +1,16 @@
+{
+    "name": "wmk.IRef.Editor",
+    "rootNamespace": "",
+    "references": ["GUID:fd8779cc99206ae46acf4fa792a0ae93"],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
