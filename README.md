@@ -3,12 +3,6 @@
 
 IRef is a Unity-specific library designed to simplify the handling of references to objects that implement certain interfaces, particularly within the Unity Editor's Inspector window.
 
-## Installation
-To install IRef, follow these steps:
-
-1. Download the latest release from the IRef GitHub repository.
-2. Import the package into your Unity project by navigating to Assets > Import Package > Custom Package and selecting the downloaded file.
-
 ## Features
 
 - **Type-Safe References** : `IRef` and `IRefList` act as wrapper classes for `UnityEngine.Object` and `List<UnityEngine.Object>`, respectively, allowing for type-safe references in Unity projects.
