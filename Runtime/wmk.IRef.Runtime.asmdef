@@ -1,3 +1,14 @@
 {
-	"name": "wmk.IRef.Runtime"
+    "name": "WMK.IRef.Runtime",
+    "rootNamespace": "WMK",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
