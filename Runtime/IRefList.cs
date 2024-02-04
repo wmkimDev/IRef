@@ -41,10 +41,24 @@ namespace WMK.IRef.Runtime
             }
             else
             {
-                Debug.LogWarning(result.errorMessage);
+                throw new System.Exception(result.errorMessage);
             }
         }
-
+        
+        public bool TryAdd(Object obj)
+        {
+            var result = IRefUtility.ValidateTarget<T>(obj);
+            if (result.isValid)
+            {
+                targets.Add(obj);
+                _cachedInterfaces.Add(IRefUtility.GetInterface<T>(obj));
+                return true;
+            }
+            
+            Debug.LogWarning(result.errorMessage);
+            return false;
+        }
+        
         public void Remove(Object obj)
         {
             var index = targets.IndexOf(obj);
