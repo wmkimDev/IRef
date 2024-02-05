@@ -1,7 +1,7 @@
 
 # IRef
 
-IRef is a Unity-specific library designed to simplify the handling of references to objects that implement certain interfaces, particularly within the Unity Editor's Inspector window.
+IRef is a Unity-specific library designed to simplify the handling of references to objects that implement certain interface, particularly within the Unity Editor's Inspector window.
 
 ## Features
 
@@ -37,7 +37,7 @@ var myObject = myRef.Object; // Access the UnityEngine.Object
 var myInterface = myRef.Interface; // Access the interface
 ```
 ```cs
-List<UnityEngine.Object> myObjects = myRefList.Objects // Access the List of UnityEngine.Object
+List<UnityEngine.Object> myObjects = myRefList.Objects; // Access the List of UnityEngine.Object
 List<MyInterface> myInterfaces = myRefList.Interfaces; // Access the List of interface
 MyInterface myInterface = myRefList[1];
 ```
@@ -48,8 +48,8 @@ When assigning an object through the Inspector, IRef automatically validates if 
 several edge cases can lead to validation failures, including:
 
 - The object does not implement the required interface.
-- The gameObject does not have any component that implement the required interface.
-- The gameObject has more than one component that implement the required interface.
+- The game object does not have any component that implement the required interface.
+- The game object has more than one component that implement the required interface.
 
 
 ## Contributing
